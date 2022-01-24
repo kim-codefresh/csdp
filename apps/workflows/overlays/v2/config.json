@@ -1,0 +1,1 @@
+{"appName":"workflows","userGivenName":"workflows","destNamespace":"v2","destServer":"https://kubernetes.default.svc","srcPath":"apps/workflows/overlays/v2","srcRepoURL":"https://github.com/lrochette/v2.git","srcTargetRevision":"","labels":{"codefresh_io_entity":"component"}}
