@@ -1,0 +1,1 @@
+{"appName":"workflow-reporter","userGivenName":"workflow-reporter","destNamespace":"v2","destServer":"https://kubernetes.default.svc","srcPath":"apps/workflow-reporter/v2/resources","srcRepoURL":"https://github.com/lrochette/v2.git","srcTargetRevision":"","labels":{"codefresh_io_entity":"component"},"exclude":"","include":""}
