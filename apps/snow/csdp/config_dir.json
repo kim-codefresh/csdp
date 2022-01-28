@@ -1,6 +1,6 @@
 {
-  "appName": "snow",
-  "userGivenName": "snow",
+  "appName": "argo",
+  "userGivenName": "argo",
   "destNamespace": "csdp",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "./workflows/servicenow/versions/1.0.0",
