@@ -1,0 +1,1 @@
+{"appName":"v2","userGivenName":"v2","destNamespace":"csdp","destServer":"https://kubernetes.default.svc","srcPath":".","srcRepoURL":"https://github.com/lrochette/v2_git-source.git","srcTargetRevision":"","labels":{"codefresh_io_entity":"git-source"},"exclude":"","include":""}
