@@ -1,1 +1,14 @@
-{"appName":"yeti-hub","userGivenName":"yeti-hub","destNamespace":"csdp","destServer":"https://kubernetes.default.svc","srcPath":"workflows","srcRepoURL":"https://github.com/codefresh-customer-success/c2csdp-hub.git","srcTargetRevision":"","labels":{"codefresh_io_entity":"git-source"},"exclude":"","include":""}
+{
+  "appName": "yeti-hub",
+  "userGivenName": "yeti-hub",
+  "destNamespace": "csdp",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "workflows",
+  "srcRepoURL": "https://github.com/codefresh-customer-success/c2csdp-hub.git",
+  "srcTargetRevision": "",
+  "labels": {
+    "codefresh_io_entity": "git-source"
+  },
+  "exclude": "",
+  "include": ""
+}
