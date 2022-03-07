@@ -8,6 +8,15 @@ patches:
     kind: Deployment
     name: argo-server
     version: v1
+- target:
+    group: apps
+    version: v1
+    name: argo-server
+    kind: Deployment
+  patch: |-
+    - op: replace
+      path: /spec/template/spec/containers/0/args/1
+      value: --auth-mode-client
 resources:
 - ../../base
 - ingress.yaml
