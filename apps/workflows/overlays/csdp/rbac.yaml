@@ -3,7 +3,7 @@ kind: ServiceAccount
 metadata:
   name: workflow
   annotations: # change below as needed
-    <endpoint>/role-arn: s3.amazonaws.com/role-arn = arn:aws:iam::835357571861:role/argo-workflows-s3-artifact-repo
+    s3.amazonaws.com/role-arn: s3.amazonaws.com/role-arn = arn:aws:iam::835357571861:role/argo-workflows-s3-artifact-repo
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
