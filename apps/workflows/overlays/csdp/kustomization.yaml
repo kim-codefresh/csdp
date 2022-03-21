@@ -19,9 +19,9 @@ patches:
       value: --auth-mode-client
 resources:
 - ../../base
-- ingress.yaml
-- rbac.yaml         # created earlier as part of this process
-- artifact-repo.yaml # created earlier as part of this process
+# - ingress.yaml
+# - rbac.yaml         # created earlier as part of this process
+# - artifact-repo.yaml # created earlier as part of this process
 patchesStrategicMerge:
   - |
  apiVersion: v1
