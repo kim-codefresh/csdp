@@ -18,9 +18,9 @@ patches:
       path: /spec/template/spec/containers/0/args/1
       value: --auth-mode-client
 resources:
-- ../../base
-- ingress.yaml
-  - rbac.yaml.         # created earlier as part of this process
+  - ../../base
+  - ingress.yaml
+  - rbac.yaml         # created earlier as part of this process
   - artifact-repo.yaml # created earlier as part of this process
 patchesStrategicMerge:
   - |
