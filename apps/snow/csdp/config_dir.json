@@ -1,0 +1,1 @@
+{"appName":"snow","userGivenName":"snow","destNamespace":"csdp","destServer":"https://kubernetes.default.svc","srcPath":"tree/main/workflows/servicenow","srcRepoURL":"https://github.com/lrochette/argo-hub.git","srcTargetRevision":"","labels":{"codefresh_io_entity":"git-source","codefresh_io_internal":"false"},"exclude":"","include":""}
