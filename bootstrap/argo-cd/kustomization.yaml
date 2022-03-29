@@ -14,16 +14,16 @@ configMapGenerator:
   name: argocd-cm
 kind: Kustomization
 namespace: csdp
-resources:
-- github.com/codefresh-io/cli-v2/manifests/argo-cd?ref=v0.0.288
 patches:
-  - patch: |-
-      apiVersion: apps/v1
-      kind: Deployment
-      metadata:
-        name: argocd-repo-server
-      spec:
-        template:
-          metadata:
-            annotations:
-              argocd-cm-hash: "87d144537ccdf42ceffacf8cafb9e940916c8556392542277a092ba30b76ae09"
+- patch: |-
+    apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      name: argocd-repo-server
+    spec:
+      template:
+        metadata:
+          annotations:
+            argocd-cm-hash: "87d144537ccdf42ceffacf8cafb9e940916c8556392542277a092ba30b76ae09"
+resources:
+- github.com/codefresh-io/cli-v2/manifests/argo-cd?ref=v0.0.301
