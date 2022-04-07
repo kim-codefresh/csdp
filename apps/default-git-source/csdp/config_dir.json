@@ -9,6 +9,6 @@
   "labels": {
     "codefresh_io_entity": "git-source"
   },
-  "exclude": "*NOT",
+  "exclude": "**/*.NOT",
   "include": ""
 }
